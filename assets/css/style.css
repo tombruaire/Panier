@@ -1,0 +1,29 @@
+.content-wrapper {
+	width: 1050px;
+	margin: 0 auto;
+}
+
+.produit {
+	display: block;
+	overflow: hidden;
+	text-decoration: none;
+	width: 25%;
+	padding-bottom: 60px;
+}
+
+.produit img {
+	transform: scale(1);
+	transition: transform 1s;
+}
+
+.produit .nom {
+	display: block;
+	color: #555555;
+	padding: 20px 0 2px 0;
+}
+
+.produit .prix {
+	display: block;
+	color: #999999;
+}
+
